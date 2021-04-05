@@ -62,4 +62,10 @@
         android:summary="@string/headset_connect_player_summary"
         android:defaultValue="false" />
 
+    <Preference
+        android:key="gaming_category"
+        android:title="@string/gaming_title"
+        android:summary="@string/gaming_title_summary"
+        android:fragment="com.awaken.settings.GamingModeSettings" />
+
 </PreferenceScreen>
